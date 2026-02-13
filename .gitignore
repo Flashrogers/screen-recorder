@@ -1,6 +1,19 @@
+# Node
 node_modules/
 dist/
+build/
+
+# Tauri
 src-tauri/target/
+src-tauri/.cargo/
 target/
+
+# Logs
 *.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
 .env
