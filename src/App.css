@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 16px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.preset {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+.status {
+  margin: 20px 0;
+}
+
+.recording {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+.idle {
+  color: #10b981;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.start {
+  background: #10b981;
+  color: white;
+}
+
+.stop {
+  background: #ef4444;
+  color: white;
+}
+
+.actions button {
+  background: #374151;
+  margin-top: 8px;
+}
